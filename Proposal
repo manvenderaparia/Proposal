@@ -3,14 +3,37 @@
 ## What will (likely) be the title of your project?
 
 TODO
+CallBreak
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
 
 TODO
+A card game where a human plays with three bots.
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
 TODO
+In my game, a player would be able to play CallBreak with 3 other bots. 
+
+THE BASICS:
+Four players play individually with a pack of 52 cards. There are 5 game rounds in this game, and scorekeeping is done separately for the 5 rounds. In each round, 13 deals are played. 
+In every deal, each player throws one card, so four cards make a deal. Thirteen tricks make a Round. Five rounds make a game of Callbreak.
+
+THE GAMEPLAY:
+All of the 52 cards are distributed equally in the counterclockwise direction among four players. Each player gets 13 cards each. 
+After the cards are distributed, each player should declare their bid (Call) for the round. The Call means the number of deals that the player insists on winning 
+in that particular round. The Call is made based on the cards in the hands of individual players. Every player must declare their Call between 1 to 8. For every round, 
+you must look at the cards carefully, and make a bid for the number of deals you think you can win. Round 1 will always start with the player then the next round will start with the bot sitting anticlockwise to the player.
+RULES OF THE GAME:
+1. Cards of suit are ranked as A,K,Q,J,10,9,8,7,6,5,4,3,2 BUT Spade will be the triumph suit.
+2. Other player always have play bigger card than the card played by the person before him. If he does not have a bigger card than that card, he can play any card of that suit.
+  Exception:
+        1. If player has run out of the same suit card then he has to play a card from the suit of spade. And if he has also run out if spade then he can play any card.
+        2. If the 1st person plays a 10 of hearts and the second person is out of heart and he played 10 of spade and its the turn of third person he has also run out of thhe hearts and he also have a 
+            card of spade but he has spade card lower than 10. Than its no compulsion on him to play the card of spade.
+3. If a person plays wrong card then the other people will get points, how many points they had called and the player will who playd the wrong card, his total score will get subtracted from the tricks he had called to score.
+Working of Software:
+
 
 ## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
 
@@ -25,15 +48,20 @@ TODO, if applicable
 ### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
 
 TODO
+Bots are able to play the correct cards
 
 ### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
 
 TODO
+Bots are able to play the correct cards and they are able to guess which cards they should play.
 
 ### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
 
 TODO
+To be able to play this game with real life players too.
+ 
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
 
 TODO
+I will need to learn pygame for this project
